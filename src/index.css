@@ -30,6 +30,7 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
+    font-family: Inter, sans-serif;
 }
 
 h1 {
@@ -60,8 +61,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
     :root {
-        color: #213547;
-        background-color: #ffffff;
+        color: #dce4ed;
+        background-color: #262424;
     }
 
     a:hover {
@@ -88,6 +89,6 @@ button:focus-visible {
     display: flex;
 }
 
-.nav-list li {
+.nav-list > li {
   margin: 0 1rem;
 }

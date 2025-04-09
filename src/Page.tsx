@@ -1,6 +1,6 @@
-import   from "./c/Header.tsx";
-import Footer from "./c/Footer.tsx";
-import Main from "./c/Main.tsx";
+import Header from "./components/Header.tsx";
+import Footer from "./components/Footer.tsx";
+import Main from "./components/Main.tsx";
 
 
 function Page() {

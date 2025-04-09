@@ -1,8 +1,11 @@
+import logo from "../assets/react.svg"
+
 export default function Header() {
 
     return (
         <header className="header">
-            <img src="/src/assets/react.svg" alt="logo"/>
+            <img src={logo} alt="logo"/>
+            <h1>React Facts</h1>
             <nav>
                 <ul className="nav-list">
                     <li>Pricing</li>
